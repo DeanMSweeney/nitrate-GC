@@ -1,0 +1,12 @@
+# Ignore all files and folders by default
+*
+
+# Allow only these specific files
+!INCAR
+!KPOINTS
+!CONTCAR
+!OUTCAR
+!POTCAR
+!DDEC6_even_tempered_net_atomic_charges.xyz
+!DOSCAR
+!.gitignore

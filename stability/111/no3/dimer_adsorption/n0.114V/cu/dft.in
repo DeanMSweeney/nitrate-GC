@@ -1,0 +1,46 @@
+# Structure
+include ./coords.in
+
+# Coulomb settings
+coulomb-interaction Periodic
+
+# Pseudopotentials and PW basis
+ion-species GBRV/$ID_pbe.uspp
+elec-cutoff 20 100  #544 eV
+
+# Spin and symmetry
+spintype no-spin #z-spin=unrestricted
+symmetries automatic
+
+# DFT functional
+elec-ex-corr gga-x-rpbe gga-c-pbe #RPBE
+#van-der-waals D3
+
+# Brillouin zone sampling
+kpoint 0. 0. 0. 1    #0 0 0 for gamma point, .5 .5 .5 for MP
+kpoint-folding 4 4 1 
+elec-smearing Fermi 0.00734 #0.2 eV
+
+# Actions
+electronic-minimize  \
+  nIterations 100 \
+  energyDiffThreshold 1E-7
+ionic-minimize \
+  nIterations 100 \
+  energyDiffThreshold 1E-6 \
+  knormThreshold 1E-4   #RMS force
+
+# Solvation
+fluid LinearPCM
+pcm-variant CANDLE
+fluid-solvent H2O
+fluid-cation Na+ 1.  # 1M cations
+fluid-anion F- 1.    # 1M anions
+
+# Apply Surface Potential 
+#target-mu -0.15604  #-1.0 V SHE
+
+# Output
+dump-name $VAR
+dump Ionic Ecomponents IonicPositions Forces State
+

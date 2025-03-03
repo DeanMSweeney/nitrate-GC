@@ -25,6 +25,7 @@ VASP.sh
 WAVECAR
 VSOLV
 RHOION
+<<<<<<< HEAD
 PCDAT
 REPORT
 
@@ -35,3 +36,9 @@ dos_analysis/
 vib_analysis/
 chg_analysis/
 elec_field_analysis/
+=======
+Icon\r
+Icon 
+Icon?
+
+>>>>>>> 60aa8d335765dfd711569a59a46833fa1b13db02

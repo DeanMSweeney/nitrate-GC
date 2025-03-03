@@ -1,13 +1,19 @@
-# ignore the following files
+# Ignore specific file types
+*.out
+*.dat
 
+# Ignore files beginning with "DOS"
+DOS*
+AEC*
+CHG*
+
+# Ignore specific files
 IBZKPT
 LOCPOT
 PCDAT
-POSCAR
 RHOB
 XDATCAR
-CHG
-CHGCAR
+OUTCAR
 EIGENVAL
 OSZICAR
 PHI
@@ -19,3 +25,13 @@ VASP.sh
 WAVECAR
 VSOLV
 RHOION
+PCDAT
+REPORT
+
+# Ignore specific folders
+solvation_single_point/
+archives/
+dos_analysis/
+vib_analysis/
+chg_analysis/
+elec_field_analysis/

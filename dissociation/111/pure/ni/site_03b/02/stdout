@@ -1,0 +1,27 @@
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Feb 06 2024 13:54:16) complex          
+  
+ POSCAR found type information on POSCAR  Ni N  O 
+ 02/POSCAR found :  3 types and      40 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|  ADVICE TO THIS USER RUNNING 'VASP/VAMP'   (HEAR YOUR MASTER'S VOICE ...):  |
+|                                                                             |
+|      You enforced a specific xc-type in the INCAR file,                     |
+|      a different type was found on the POTCAR file                          |
+|          I HOPE YOU KNOW, WHAT YOU ARE  DOING                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR found type information on POSCAR  Ni N  O 
+ 00/POSCAR found :  3 types and      40 ions
+ POSCAR found type information on POSCAR  Ni N  O 
+ 06/POSCAR found :  3 types and      40 ions
+ Jacobian:    19.3150482140651     
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          ort

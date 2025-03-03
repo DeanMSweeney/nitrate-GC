@@ -1,0 +1,17 @@
+<net charge>
+0.0
+</net charge>
+
+<periodicity along A, B, and C vectors>
+.true.
+.true.
+.true.
+</periodicity along A, B, and C vectors>
+
+<atomic densities directory complete path>
+/home/dsweeney3/ddec/chargemol_09_26_2017/atomic_densities/
+</atomic densities directory complete path>
+
+<charge type>
+DDEC6
+</charge type>

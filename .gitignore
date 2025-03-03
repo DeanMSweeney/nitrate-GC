@@ -2,6 +2,10 @@
 *.out
 *.dat
 *.sh
+*.gz
+*.traj
+*.py
+
 # Ignore files beginning with "DOS"
 DOS*
 AEC*
@@ -41,6 +45,7 @@ no3_dipole/
 solvation_run/
 spin/
 no_spin/
+neb*/
 =======
 >>>>>>> 1605187cb877913ab592bbdce93009ebb6e1fb23
 =======

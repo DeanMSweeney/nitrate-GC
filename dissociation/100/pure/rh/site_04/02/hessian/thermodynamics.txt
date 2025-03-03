@@ -1,0 +1,4 @@
+Electronic Energy (eV): -243.39633522
+Internal Energy (eV): -242.95273201510847
+Entropy (eV / K): 0.0010216416897721246
+Helmholtz Energy (eV): -243.25733448491403

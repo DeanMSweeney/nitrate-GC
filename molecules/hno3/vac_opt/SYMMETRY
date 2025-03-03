@@ -1,0 +1,81 @@
+                   ============
+                      SYMMOL
+  A PROGRAM FOR THE SYMMETRIZATION OF GROUPS OF ATOMS
+        By Tullio Pilati and Alessandra Forni
+                Version November 4th 2002
+  ===================================================
+ 
+ 
+  INDWGH=1 ===> WEIGHTS AS ATOMIC MASS
+  INDTOL=1 ===> TOLERANCE=CONSTANT
+  CONSTANTS OF TOLERANCE=  0.150  0.150
+ 
+ 
+  CELL
+  15.00000  15.00000  15.00000    90.000    90.000    90.000 3375.00000
+
+ 
+  ATOM GROUP  INPUT COORDINATES AND THEIR S.U.
+ 
+ N      1   0.46597  0.46577  0.46341  0.00000  0.00000  0.00000
+ O      1   0.45737  0.46603  0.56053  0.00000  0.00000  0.00000
+ O      1   0.54259  0.46582  0.43473  0.00000  0.00000  0.00000
+ O      1   0.39481  0.46552  0.42492  0.00000  0.00000  0.00000
+ H      1   0.52005  0.46659  0.57968  0.00000  0.00000  0.00000
+
+
+           SYMMETRIZATION OF GROUP NR. 1
+
+
+ PRINCIPAL INERTIA MOMENTS and DEGENERATION DEGREE
+     84.34     44.08     40.26         2
+
+ 
+    ORTHOGONALIZATION MATRIX
+    1.419439    0.070882   14.932520
+   14.932632    0.034522   -1.419614
+   -0.041075   14.999793   -0.067297
+ 
+ ATOM      ORTHOGONAL COORDINATES      VECTORS TO MAKESYMMETRICAL THE GROUP
+ 
+N         -0.14144   0.01241   0.00019       -0.00000   0.00000  -0.00019
+O          1.29668  -0.25381  -0.00203        0.00000  -0.00000   0.00203
+O         -0.46097   1.19727  -0.00022       -0.00000   0.00000   0.00022
+O         -0.81719  -0.99559   0.00193       -0.00000  -0.00000  -0.00193
+H          1.67159   0.65498   0.00244        0.00000   0.00000  -0.00244
+ 
+     SYMMETRIZED ORTHOGONAL COORDINATES            ATOMIC R.M.S.
+N      1 -0.14144  0.01241  0.00000    0.00000  0.00000  0.00019  *
+O      1  1.29668 -0.25381  0.00000    0.00000  0.00000  0.00203  *
+O      1 -0.46097  1.19727  0.00000    0.00000  0.00000  0.00022  *
+O      1 -0.81719 -0.99559  0.00000    0.00000  0.00000  0.00193  *
+H      1  1.67159  0.65498  0.00000    0.00000  0.00000  0.00244  *
+ 
+ * Atom defining the asymmetric unit for the found symmetry group.
+ 
+ 
+ AVERAGE DIFFERENCE ON X,Y,Z,D   0.00000   0.00000   0.00136   0.00136
+
+ MAXIMUM DIFFERENCE ON X,Y,Z,D   0.00000   0.00000   0.00244   0.00244
+              DUE TO THE ATOMS    H         O         H         H     
+
+ Bond lengths and bond angles after symmetrization
+ 
+N     -O      1.4626      N     -O      1.2272      N     -O      1.2135        
+O     -N      1.4626      O     -H      0.9831      O     -N      1.2272        
+O     -N      1.2135      H     -O      0.9831                                  
+ 
+O     -N     -O      115.580       O     -N     -O      113.349                 
+O     -N     -O      131.070       N     -O     -H      101.930                 
+ 
+        SYMMETRIZED FRACTIONAL COORDINATES
+ N      1  0.46597  0.46576  0.46341  0.00000  0.00000  0.00000
+ O      1  0.45737  0.46617  0.56053  0.00000  0.00000  0.00000
+ O      1  0.54259  0.46584  0.43473  0.00000  0.00000  0.00000
+ O      1  0.39481  0.46539  0.42492  0.00000  0.00000  0.00000
+ H      1  0.52005  0.46643  0.57968  0.00000  0.00000  0.00000
+
+ Schoenflies symbol = Cs       CSM =  0.0003     Molecular RMS =  0.0017
+ CSM,see: Zabrodsky et al. (1993) JACS, 115, 8278-8298
+ Symmetry element its CSM and Max.Diff.  Symmetry element its CSM and Max.Diff. 
+  1) [E  ]  x,y,z       0.0000  0.0000    2) [Cs ]  x,y,-z      0.0003  0.0024   

@@ -1,0 +1,27 @@
+#!/bin/bash
+#SBATCH --job-name="Pd1Cu_NO3b_NO2_NEB_100"
+#SBATCH --output="%j.%N.out"
+#SBATCH --partition=shared
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=120
+#SBATCH --mem=0
+#SBATCH --account=mia358
+#SBATCH --export=ALL
+#SBATCH -t 05:00:00
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=dmsween@umich.edu
+
+module purge                                  # Unloads all loaded modules
+module load shared                            # Loads the shared module
+module load sdsc/1.0                          # Loads the sdsc module
+module load DefaultModules                    # Loads the default modules
+module load slurm/expanse/23.02.7             # Loads the slurm module
+module load cpu/0.17.3b                       # Loads the cpu module
+module load gcc/10.2.0/npcyll4                # Loads the gcc module
+module load intel-mkl/2020.4.304/ghfk3mu      # Loads the intel-mkl module
+module load mvapich2/2.3.7/iyjtn3x            # Loads the mvapich2 module
+module load intel-mpi/2019.10.317/kdx4qap
+
+export PATH="/home/dsweeney3/VASP5/bin:$PATH"
+
+mpirun -np $SLURM_NTASKS vasp_std

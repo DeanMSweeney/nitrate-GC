@@ -1,0 +1,57 @@
+   SYSTEM = Rh1Cu_NO3_NO2_NEB
+
+#### NOTE #### 
+# The following parameters have been relaxed OR deactivated for NEB convergence - rerrun for corrections 
+# - Dipole corrections 
+# - Implicit solvation 
+# - ENCUT relaxed to 400 eV 
+# - Regular k-point meshed used instead of Monkhorst-Pack mesh 
+
+# Must be standard in runs that will be compared
+   PREC   =  Normal  #Normal, Low, Accurate
+   LREAL  =  Auto
+   EDIFF  =  1E-4    #eV, default 1E-4, break SCF loop
+
+# May be changed to tune speed/convergence and still compare calcs of different parameters
+   NCORE  =  8       #SQRT(threads)
+   ALGO   =  Fast    #Very_Fast = IALGO 48, Normal = IALGO 38, Fast = some of each
+   NELM   =  400     #number of electronic steps
+   ISYM   =  0       #symmetry treatment
+   ISTART =  0       #1 if restart from WAVECAR
+
+# System specific and extremely important to confirm
+   ISPIN  =  1       #spin polarized calculation? 1= no, restricted, 2=yes, unrestricted
+   ENCUT  =  544     #in eV, should be higher than max ENMAX in POTCARs
+   ISMEAR =  2       #2 for metals, -5 for for insulator/semiconductor, 0 if molecule
+   SIGMA  =  0.2     #broadening in eV.  0.2 for metals, 0.003 for molecules and semiconductors (oxides)
+   GGA    =  RP 
+
+# Parameters that specify the type of calculation
+   IBRION =  3       #ionic relax: 0-MD 1-quasi-New 2-CG 5-frequency calc
+   NSW    =  500     #number of steps for IOM
+   POTIM  =  0     #step width of IOM, or time step in MD
+   EDIFFG =  -0.03   #stopping-criterion for IOM, negative in eV/A
+   ISIF   =  1       #relaxation DOF; 2 for atom pos. only, 7 for cell volume (keep shape), 3 for shape change
+
+# Control output files
+   LWAVE  = .FALSE.   #write wavefunction file WAVECAR or not
+   LCHARG = .FALSE.   #write charge density files CHGCAR/CHG or not
+   LVTOT  = .FALSE.  #write local potential (with Vxc) file LOCPOT or not
+   LVHAR  = .FALSE.  #write local potential (w/o Vxc) LOCPOT or not
+
+# Add-on settings specific for system (U terms, NELECT, Dipole corrections)
+   IVDW   = 0        #12 if D3, 21 if TS
+   LDIPOL = .TRUE.   #correct energy of net dipole moment
+   IDIPOL = 3        #x,y,z or all
+   #
+# Nudge Elastic Band - Transition State Searching 
+   NWRITE =  0 
+   IMAGES =  5       #number of images in NEB analysis 
+   SPRING = -5       #spring force between images, leave at -5 eV/A
+   ICHAIN =  0        #transtion state search method, 0 --> NEB 
+   LCLIMB = .TRUE.     #activate climbing NEB method 
+   IOPT = 3          #optimization technique, default to VASP optimizers
+
+# VASP Solv 
+   LSOL  = .TRUE.     #VASPsol
+   LAMBDA_D_K = 3.04  #Debye length for linearized PB 

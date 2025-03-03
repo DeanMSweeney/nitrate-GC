@@ -1,7 +1,7 @@
 # Ignore specific file types
 *.out
 *.dat
-
+*.sh
 # Ignore files beginning with "DOS"
 DOS*
 AEC*
@@ -21,7 +21,6 @@ PHISOLV
 REPORT
 S
 vasprun.xml
-VASP.sh
 WAVECAR
 VSOLV
 RHOION
@@ -39,6 +38,9 @@ elec_field_analysis/
 <<<<<<< HEAD
 vac_25/
 no3_dipole/
+solvation_run/
+spin/
+no_spin/
 =======
 >>>>>>> 1605187cb877913ab592bbdce93009ebb6e1fb23
 =======

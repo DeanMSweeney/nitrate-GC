@@ -2,6 +2,8 @@
 
 ## Potential Dependence of Nitrate Adsorption and Dissociation across Metals and Dilute Alloys: a Grand Canonical Study
 
+![Graphical Abstract](Picture1.png)
+
 This repository contains all data and code used for our manuscript titled: **"Potential Dependence of Nitrate Adsorption and Dissociation across Metals and Dilute Alloys: a Grand Canonical Study"**.
 
 ## Repository Structure
@@ -33,7 +35,7 @@ This folder contains data and input files for explicit grand canonical DFT studi
   - A folder containing **input files and optimized coordinates** for reference state molecules.
 
 ### 3. `gc-dft_analysis`
-(Details on this folder's contents to be added.)
+This folder contains all **data and code** used to analyze results from both **aGC-DFT** and **eGC-DFT** calculations.
 
 ## Usage Instructions
 (To be completed with steps on running the calculations and analyzing the data.)
@@ -44,3 +46,4 @@ If you use this repository, please cite our manuscript: _"Potential Dependence o
 ---
 
 Let me know if you’d like any modifications or additions!
+

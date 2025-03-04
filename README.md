@@ -38,12 +38,5 @@ This folder contains data and input files for explicit grand canonical DFT studi
 This folder contains all **data and code** used to analyze results from both **aGC-DFT** and **eGC-DFT** calculations.
 
 ## Usage Instructions
-(To be completed with steps on running the calculations and analyzing the data.)
-
-## Citation
-If you use this repository, please cite our manuscript: _"Potential Dependence of Nitrate Adsorption and Dissociation across Metals and Dilute Alloys: a Grand Canonical Study"_.
-
----
-
-Let me know if you’d like any modifications or additions!
+Feel free to use any data/code in this repository for your own analyses or to understand the results presented within the main text. 
 

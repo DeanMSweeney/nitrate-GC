@@ -27,11 +27,11 @@ This folder contains data and input files for explicit grand canonical DFT studi
 
 - **Stability Studies:**
   - A directory for stability studies on the (111) facet of Cu-based SAAs.
-  - These studies are organized by **applied potential** and whether the study is a **segregation** or **aggregation** study.
+  - These studies are organized by the **applied potential** and whether the study is a **segregation** or **aggregation** study.
 - **NO₃ Adsorption and Dissociation Studies:**
   - A directory containing adsorption and dissociation studies of **NO₃ on Cu(111)** for comparison to **aGC-DFT results**.
 - **Other Directories:**
-  - A folder containing **input files for vibration analyses** to compute the Hessian using the **Atomic Simulation Environment (ASE)**.
+  - A folder containing **input files for vibration analyses and NEB calculations** using the **Atomic Simulation Environment (ASE)**.
   - A folder containing **input files and optimized coordinates** for reference state molecules.
 
 ### 3. `gc-dft_analysis`

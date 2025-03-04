@@ -1,7 +1,7 @@
    SYSTEM = BADER_RUN 
 
 # Must be standard in runs that will be compared
-   PREC   =  Normal  #Normal, Low, Accurate
+   PREC   =  Accurate  #Normal, Low, Accurate
    LREAL  =  Auto
    EDIFF  =  1E-5    #eV, default 1E-4, break SCF loop
 
@@ -20,8 +20,8 @@
    GGA    =  RP 
 
 # Parameters that specify the type of calculation
-   IBRION =  1       #ionic relax: 0-MD 1-quasi-New 2-CG 5-frequency calc
-   NSW    =  400       #number of steps for IOM
+   IBRION =  -1       #ionic relax: 0-MD 1-quasi-New 2-CG 5-frequency calc
+   NSW    =  0       #number of steps for IOM
    POTIM  =  0.5     #step width of IOM, or time step in MD
    EDIFFG =  -0.01   #stopping-criterion for IOM, negative in eV/A
    ISIF   =  2       #relaxation DOF; 2 for atom pos. only, 7 for cell volume (keep shape), 3 for shape change

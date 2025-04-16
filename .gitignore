@@ -6,6 +6,10 @@
 *.traj
 *.py
 
+# Exclude the folloiwng .py files from being ignored 
+!ase-jdftx-neb.py 
+!ase-jdftx-vib.py
+
 # Ignore files beginning with "DOS"
 DOS*
 AEC*

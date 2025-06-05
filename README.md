@@ -11,7 +11,7 @@ This repository contains all data and code used for our manuscript titled: **"Po
 The repository is organized into three main directories:
 
 ### 1. [analytical_GC-DFT](./analytical_GC-DFT/)
-This folder contains all input files and output coordinates for adsorption and dissociation studies performed on the (111) and (100) facets of pure metals and select single-atom alloys (SAAs) using **VASP**. 
+This folder contains all input files and output coordinates for [adsorption](./analytical_GC-DFT/adsorption) and [dissociation](./analytical_GC-DFT/dissociation) studies performed on the (111) and (100) facets of pure metals and select single-atom alloys (SAAs) using **VASP**. 
 
 - **Metal-Specific Directories:** Each metal has a dedicated directory containing:
   - Input files and optimized coordinates for structures optimized with **implicit solvation**.
@@ -31,11 +31,14 @@ This folder contains data and input files for explicit grand canonical DFT studi
 - [NO₃ Adsorption and Dissociation Studies](./explicit_GC-DFT/cu_111_studies)
   - A directory containing adsorption and dissociation studies of **NO₃ on Cu(111)** for comparison to **aGC-DFT results**.
 - **Other Directories:**
-  - A folder containing **input files for vibration analyses and NEB calculations** using the **Atomic Simulation Environment (ASE)**.
-  - A folder containing **input files and optimized coordinates** for reference state molecules.
+  - A folder containing [input files for vibration analyses and NEB calculations](./explicit_GC-DFT/ase-jdftx_inputs) using the **Atomic Simulation Environment (ASE)**.
+  - A folder containing [input files and optimized coordinates](./explicit_GC-DFT/molecules) for reference state molecules.
 
-### 3. `gc-dft_analysis`
-This folder contains all **data and code** used to analyze results from both **aGC-DFT** and **eGC-DFT** calculations.
+### 3. [gc-dft_analysis](./analytical_GC-DFT)
+This folder contains all **data** used within this study from both [aGC-DFT](./analytical_GC-DFT/data
+/aGC-DFT_data.csv) and [eGC-DFT](./analytical_GC-DFTdata
+/jdftx_data.csv) calculations.
+
 
 ## Usage Instructions
 Feel free to use any data/code in this repository for your own analyses or to understand the results presented within the main text. 

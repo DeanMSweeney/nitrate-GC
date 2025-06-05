@@ -1,0 +1,72 @@
+                   ============
+                      SYMMOL
+  A PROGRAM FOR THE SYMMETRIZATION OF GROUPS OF ATOMS
+        By Tullio Pilati and Alessandra Forni
+                Version November 4th 2002
+  ===================================================
+ 
+ 
+  INDWGH=1 ===> WEIGHTS AS ATOMIC MASS
+  INDTOL=1 ===> TOLERANCE=CONSTANT
+  CONSTANTS OF TOLERANCE=  0.150  0.150
+ 
+ 
+  CELL
+  15.00000  15.00000  15.00000    90.000    90.000    90.000 3375.00000
+
+ 
+  ATOM GROUP  INPUT COORDINATES AND THEIR S.U.
+ 
+ H      1   0.00000  0.00000  0.02489  0.00000  0.00000  0.00000
+ H      1   0.00000  0.00000 -0.02489  0.00000  0.00000  0.00000
+
+
+           SYMMETRIZATION OF GROUP NR. 1
+
+
+ PRINCIPAL INERTIA MOMENTS and DEGENERATION DEGREE
+      0.28      0.28      0.00         2
+
+ 
+    ORTHOGONALIZATION MATRIX
+   15.000000    0.000000    0.000000
+    0.000000   15.000000    0.000000
+    0.000000    0.000000   15.000000
+ 
+ ATOM      ORTHOGONAL COORDINATES      VECTORS TO MAKESYMMETRICAL THE GROUP
+ 
+H          0.00000   0.00000   0.37336        0.00000   0.00000   0.00000
+H          0.00000   0.00000  -0.37336        0.00000   0.00000   0.00000
+ 
+     SYMMETRIZED ORTHOGONAL COORDINATES            ATOMIC R.M.S.
+H      1  0.00000  0.00000  0.37336    0.00000  0.00000  0.00000  *
+H      1  0.00000  0.00000 -0.37336    0.00000  0.00000  0.00000   
+ 
+ * Atom defining the asymmetric unit for the found symmetry group.
+ 
+ 
+ AVERAGE DIFFERENCE ON X,Y,Z,D   0.00000   0.00000   0.00000   0.00000
+
+ MAXIMUM DIFFERENCE ON X,Y,Z,D   0.00000   0.00000   0.00000   0.00000
+              DUE TO THE ATOMS     ---       ---       ---       ---  
+
+ Bond lengths and bond angles after symmetrization
+ 
+H     -H      0.7467                                                            
+ 
+ 
+        SYMMETRIZED FRACTIONAL COORDINATES
+ H      1  0.00000  0.00000  0.02489  0.00000  0.00000  0.00000
+ H      1  0.00000  0.00000 -0.02489  0.00000  0.00000  0.00000
+
+ Schoenflies symbol = D(inf)h  CSM =  0.0000     Molecular RMS =  0.0000
+ CSM,see: Zabrodsky et al. (1993) JACS, 115, 8278-8298
+
+ SYMMETRY GROUP MATRICES
+
+
+  1 CSM =   0.00     MAX. DIFF. (Angstrom)=0.0000     TYPE E  
+     1.0000000000    0.0000000000    0.0000000000
+     0.0000000000    1.0000000000    0.0000000000
+     0.0000000000    0.0000000000    1.0000000000
+

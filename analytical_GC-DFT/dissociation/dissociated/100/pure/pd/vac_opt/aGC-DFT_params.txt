@@ -1,0 +1,16 @@
+Dipole Moment: 0.361785
+Vacuum Energy: 5.648
+Fermi Energy: -0.1722
+Work Function: 5.8202
+Slab PZC: 1.2202000000000002
+Polarizability: 3.77957019531139
+Polynomial Coefficients: a = -1.889785097655695, b = -0.36466555094898007, c = -179.29050118058666
+
+Electric Field (E)	Energy (E)
+0.0		-179.290649
+0.1		-179.345748
+0.2		-179.438876
+0.3		-179.569892
+0.4		-179.738853
+0.5		-179.945605
+0.6		-180.189386

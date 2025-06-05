@@ -1,0 +1,60 @@
+# Ignore specific file types
+*.out
+*.dat
+*.sh
+*.gz
+*.traj
+*.py
+
+# Exclude the folloiwng .py files from being ignored 
+!ase-jdftx-neb.py 
+!ase-jdftx-vib.py
+
+# Ignore files beginning with "DOS"
+DOS*
+AEC*
+CHG*
+
+# Ignore specific files
+IBZKPT
+LOCPOT
+PCDAT
+RHOB
+XDATCAR
+OUTCAR
+EIGENVAL
+OSZICAR
+PHI
+PHISOLV
+REPORT
+S
+vasprun.xml
+WAVECAR
+VSOLV
+RHOION
+<<<<<<< HEAD
+PCDAT
+REPORT
+
+# Ignore specific folders
+solvation_single_point/
+archives/
+dos_analysis/
+vib_analysis/
+chg_analysis/
+elec_field_analysis/
+<<<<<<< HEAD
+vac_25/
+no3_dipole/
+solvation_run/
+spin/
+no_spin/
+neb*/
+=======
+>>>>>>> 1605187cb877913ab592bbdce93009ebb6e1fb23
+=======
+Icon\r
+Icon 
+Icon?
+hessian\
+>>>>>>> 60aa8d335765dfd711569a59a46833fa1b13db02

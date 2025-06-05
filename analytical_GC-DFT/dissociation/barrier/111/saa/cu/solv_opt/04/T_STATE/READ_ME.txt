@@ -1,0 +1,1 @@
+The data in this folder represents the final transition state for NO3 dissociation over Cu(111). It came from an NEB calclation where I cropped images around expected transition state from other NEB runs. 

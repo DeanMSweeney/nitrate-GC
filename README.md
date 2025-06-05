@@ -35,7 +35,7 @@ This folder contains data and input files for explicit grand canonical DFT studi
   - [Input files and optimized coordinates](./explicit_GC-DFT/molecules) for reference state molecules.
 
 ### 3. [gc-dft_analysis](./analytical_GC-DFT)
-This folder contains all data used within this study from both [aGC-DFT](./analytical_GC-DFT/data/aGC-DFT_data.csv) and [eGC-DFT](./analytical_GC-DFT/data/jdftx_data.csv) calculations, along with project density of states data for [pure metals](./gc-dft_analysis/data/pure_dos/) and [SAAs](./gc-dft_analysis/data/pure_dos/). We also provide the [code](./gc-dft_analysis/GC-DFT_analysis.ipynb) for analyzing this data. 
+This folder contains all data used within this study from both [aGC-DFT](./gc-dft_analysis/data/aGC-DFT_data.csv) and [eGC-DFT](./gc-dft_analysis/data/jdftx_data.csv) calculations, along with project density of states data for [pure metals](./gc-dft_analysis/data/pure_dos/) and [SAAs](./gc-dft_analysis/data/pure_dos/). We also provide the [code](./gc-dft_analysis/GC-DFT_analysis.ipynb) for analyzing this data. 
 
 
 ## Usage Instructions

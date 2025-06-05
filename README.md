@@ -11,7 +11,7 @@ This repository contains all data and code used for our manuscript titled: **"Po
 The repository is organized into three main directories:
 
 ### 1. `analytical_GC-DFT`
-This folder contains all input files and output coordinates for adsorption and dissociation studies performed on the (111) and (100) facets of pure metals and select single-atom alloys (SAAs) using **VASP**. [Hello]((https://github.com/DeanMSweeney/nitrate-GC/tree/main/analytical_GC-DFT))
+This folder contains all input files and output coordinates for adsorption and dissociation studies performed on the (111) and (100) facets of pure metals and select single-atom alloys (SAAs) using **VASP**. [Hello](./analytical_GC-DFT/)
 
 - **Metal-Specific Directories:** Each metal has a dedicated directory containing:
   - Input files and optimized coordinates for structures optimized with **implicit solvation**.

@@ -1,6 +1,6 @@
 # README
 
-## Potential Dependence of Nitrate Adsorption and Dissociation across Metals and Dilute Alloys: a Grand Canonical Study
+## A Grand Canonical Study of the Potential Dependence of Nitrate Adsorption and Dissociation across Metals and Dilute Alloys
 
 ![Graphical Abstract](ga.png)
 

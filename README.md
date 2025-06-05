@@ -6,6 +6,9 @@
 
 This repository contains all data and code used for our manuscript titled: **"Potential Dependence of Nitrate Adsorption and Dissociation across Metals and Dilute Alloys: a Grand Canonical Study"**.
 
+[![MIT License](https://img.shields.io/badge/Code-MIT-green.svg)](./LICENSE-CODE)
+[![CC BY 4.0](https://img.shields.io/badge/Data-CC_BY_4.0-blue.svg)](./LICENSE-DATA)
+
 ## Repository Structure
 
 The repository is organized into three main directories:

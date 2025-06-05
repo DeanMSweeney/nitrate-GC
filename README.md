@@ -48,6 +48,5 @@ Feel free to use any data/code in this repository for your own analyses or to un
 - **Code/Software**: Licensed under [MIT](./LICENSE-CODE).  
 - **Data/Results**: Licensed under [CC BY 4.0](./LICENSE-DATA), requiring attribution to the original paper.  
 
-*For attribution, please cite our work:*  
-> [Your Paper Title], *Journal Name*, Year, DOI: [link]. 
+*For attribution, please cite our work.*  
 

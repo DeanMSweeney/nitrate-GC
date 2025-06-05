@@ -19,16 +19,16 @@ This folder contains all input files and output coordinates for adsorption and d
   - `aGC-DFT_params.txt`: A file containing all the parameters used within the aGC-DFT model (found within the vacuum optimization folder).
 - **Dissociation Studies:** To find the `aGC-DFT_params.txt` file for dissociation studies, navigate to the **transition state image** folder.
 - **Other Directories:**
-  - A folder containing **INCARS** used for charge analyses, density of states calculations, and vibration analyses (Hessian computation).
-  - A folder containing **input files and optimized coordinates** for reference state molecules.
+  - A folder containing [INCARS](./analytical_GC-DFT/incars_4_analysis/) used for charge analyses, density of states calculations, and vibration analyses (Hessian computation).
+  - A folder containing [input files and optimized coordinates](./analytical_GC-DFT/molecules/) for reference state molecules.
 
-### 2. `explicit_GC-DFT`
+### 2. [explicit_GC-DFT](./explicit_GC-DFT)
 This folder contains data and input files for explicit grand canonical DFT studies, focusing on Cu-based SAAs:
 
-- **Stability Studies:**
+- [Stability Studies](./explicit_GC-DFT/stability/111/)
   - A directory for stability studies on the (111) facet of Cu-based SAAs.
   - These studies are organized by the **applied potential** and whether the study is a **segregation** or **aggregation** study.
-- **NO₃ Adsorption and Dissociation Studies:**
+- [NO₃ Adsorption and Dissociation Studies](./explicit_GC-DFT/cu_111_studies)
   - A directory containing adsorption and dissociation studies of **NO₃ on Cu(111)** for comparison to **aGC-DFT results**.
 - **Other Directories:**
   - A folder containing **input files for vibration analyses and NEB calculations** using the **Atomic Simulation Environment (ASE)**.

@@ -49,4 +49,5 @@ Feel free to use any data/code in this repository for your own analyses or to un
 - **Data/Results**: Licensed under [CC BY 4.0](./LICENSE-DATA), requiring attribution to the original paper.  
 
 *For attribution, please cite our work:*
-Sweeney, D.M., Tran, B. & Goldsmith, B.R. A grand canonical study of the potential dependence of nitrate adsorption and dissociation across metals and dilute alloys. Commun Chem 8, 182 (2025). https://doi.org/10.1038/s42004-025-01579-y
+
+Sweeney, D.M., Tran, B. & Goldsmith, B.R. Commun Chem 8, 182 (2025).
